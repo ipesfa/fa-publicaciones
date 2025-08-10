@@ -35,8 +35,8 @@ export function Hero() {
               isVisible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
             }`}
           >
-            Navega la producción académica del Instituto Provincial de Educación Superior Florentino Ameghino desde sus
-            inicios hasta la actualidad
+            Navega la producción académica del Instituto Provincial de Enseñanza Superior Florentino Ameghino desde sus
+            inicios hasta la actualidad. Descubre nuestros proyectos culturales que enriquecen el conocimiento institucional.
           </p>
 
           {/* Enter button similar to museum */}

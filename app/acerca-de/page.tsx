@@ -13,14 +13,14 @@ export default function AcercaDePage() {
               Acerca de
             </h1>
             <p className="font-neue-machina text-lg text-deep-black/70 leading-relaxed font-light max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-              Instituto Provincial de Educación Superior Florentino Ameghino
+              Instituto Provincial de Enseñanza Superior Florentino Ameghino
             </p>
           </div>
 
           <div className="prose prose-lg max-w-none animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="space-y-8 text-deep-black/80 font-light leading-relaxed">
               <p className="font-neue-machina text-lg">
-                El Instituto Provincial de Educación Superior Florentino Ameghino es una institución 
+                El Instituto Provincial de Enseñanza Superior Florentino Ameghino es una institución 
                 dedicada a la formación académica y la investigación, comprometida con el desarrollo 
                 educativo y cultural de la región.
               </p>
@@ -34,7 +34,9 @@ export default function AcercaDePage() {
               <p className="font-neue-machina">
                 FA Publicaciones surge como el sello editorial que agrupa tanto la revista 
                 institucional como las publicaciones especializadas, manteniendo los más altos 
-                estándares de calidad académica y editorial.
+                estándares de calidad académica y editorial. Nuestros proyectos culturales 
+                representan el compromiso institucional con la difusión del conocimiento y 
+                el desarrollo cultural de la comunidad académica.
               </p>
             </div>
           </div>

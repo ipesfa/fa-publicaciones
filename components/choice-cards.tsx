@@ -45,14 +45,14 @@ export function ChoiceCards() {
                 damping: 4.1,
                 mass: 0.2,
               }}
-              className="group relative overflow-hidden bg-sage-light/30 backdrop-blur-sm border border-sage-dark/20 transition-all duration-700 hover:bg-sage-light/40 hover:border-sage-dark/30 hover:shadow-2xl hover:shadow-sage-dark/10"
+              className="group relative overflow-hidden bg-blue-100/50 backdrop-blur-sm border border-blue-300/40 transition-all duration-700 hover:bg-blue-100/70 hover:border-blue-400/50 hover:shadow-2xl hover:shadow-blue-300/30"
               style={{ 
                 transformOrigin: 'center center',
               }}
             >
               {/* Spotlight effect */}
               <Spotlight
-                className='z-10 from-sage-light/50 via-sage-light/20 to-sage-light/10 blur-2xl'
+                className='z-10 from-blue-200/60 via-blue-100/30 to-blue-200/20 blur-2xl'
                 size={248}
                 springOptions={{
                   stiffness: 26.7,
@@ -62,18 +62,20 @@ export function ChoiceCards() {
               />
               
               {/* Subtle background pattern */}
-              <div className="absolute inset-0 opacity-5">
-                <div className="absolute inset-0 bg-gradient-to-br from-sage-dark/20 via-transparent to-sage-light/20"></div>
+              <div className="absolute inset-0 opacity-8">
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-400/30 via-transparent to-blue-200/30"></div>
                 <div className="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml,%3Csvg width%3D%2260%22 height%3D%2260%22 viewBox%3D%220 0 60 60%22 xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg fill%3D%22none%22 fillRule%3D%22evenodd%22%3E%3Cg fill%3D%22%23000000%22 fillOpacity%3D%220.03%22%3E%3Ccircle cx%3D%2230%22 cy%3D%2230%22 r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E')]"></div>
               </div>
 
               <div className="relative p-12 md:p-16 h-full flex flex-col justify-between min-h-[400px]">
                 {/* Logo area */}
                 <div className="mb-8">
-                  <div className="w-16 h-16 mb-6 flex items-center justify-center bg-sage-dark/10 group-hover:bg-sage-dark/15 transition-all duration-500">
-                    <div className="text-2xl font-bold text-deep-black group-hover:scale-110 transition-transform duration-500 font-neue-machina">
-                      FA
-                    </div>
+                  <div className="w-20 h-20 mb-6 flex items-center justify-center bg-blue-200/30 group-hover:bg-blue-200/40 transition-all duration-500 rounded-lg">
+                    <img 
+                      src="/logos/fa-revista-logo.png" 
+                      alt="FA Revista" 
+                      className="w-14 h-14 object-contain group-hover:scale-110 transition-transform duration-500"
+                    />
                   </div>
                   <h2 className="font-neue-machina text-4xl md:text-5xl font-normal text-deep-black mb-4 tracking-tight leading-tight group-hover:text-deep-black transition-colors duration-500">
                     Revista
@@ -112,7 +114,7 @@ export function ChoiceCards() {
               </div>
 
               {/* Hover overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-sage-light/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-blue-200/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             </Tilt>
           </div>
 
@@ -131,14 +133,14 @@ export function ChoiceCards() {
                 damping: 4.1,
                 mass: 0.2,
               }}
-              className="group relative overflow-hidden bg-sage-light/30 backdrop-blur-sm border border-sage-dark/20 transition-all duration-700 hover:bg-sage-light/40 hover:border-sage-dark/30 hover:shadow-2xl hover:shadow-sage-dark/10"
+              className="group relative overflow-hidden bg-amber-100/50 backdrop-blur-sm border border-amber-300/40 transition-all duration-700 hover:bg-amber-100/70 hover:border-amber-400/50 hover:shadow-2xl hover:shadow-amber-300/30"
               style={{ 
                 transformOrigin: 'center center',
               }}
             >
               {/* Spotlight effect */}
               <Spotlight
-                className='z-10 from-sage-light/50 via-sage-light/20 to-sage-light/10 blur-2xl'
+                className='z-10 from-amber-200/60 via-amber-100/30 to-amber-200/20 blur-2xl'
                 size={248}
                 springOptions={{
                   stiffness: 26.7,
@@ -148,18 +150,20 @@ export function ChoiceCards() {
               />
               
               {/* Subtle background pattern */}
-              <div className="absolute inset-0 opacity-5">
-                <div className="absolute inset-0 bg-gradient-to-br from-sage-dark/20 via-transparent to-sage-light/20"></div>
+              <div className="absolute inset-0 opacity-8">
+                <div className="absolute inset-0 bg-gradient-to-br from-amber-400/30 via-transparent to-amber-200/30"></div>
                 <div className="absolute top-0 left-0 w-full h-full bg-[url('data:image/svg+xml,%3Csvg width%3D%2260%22 height%3D%2260%22 viewBox%3D%220 0 60 60%22 xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cg fill%3D%22none%22 fillRule%3D%22evenodd%22%3E%3Cg fill%3D%22%23000000%22 fillOpacity%3D%220.03%22%3E%3Ccircle cx%3D%2230%22 cy%3D%2230%22 r%3D%221%22%2F%3E%3C%2Fg%3E%3C%2Fg%3E%3C%2Fsvg%3E')]"></div>
               </div>
 
               <div className="relative p-12 md:p-16 h-full flex flex-col justify-between min-h-[400px]">
                 {/* Logo area */}
                 <div className="mb-8">
-                  <div className="w-16 h-16 mb-6 flex items-center justify-center bg-sage-dark/10 group-hover:bg-sage-dark/15 transition-all duration-500">
-                    <div className="text-2xl font-bold text-deep-black group-hover:scale-110 transition-transform duration-500 font-neue-machina">
-                      FA
-                    </div>
+                  <div className="w-20 h-20 mb-6 flex items-center justify-center bg-amber-200/30 group-hover:bg-amber-200/40 transition-all duration-500 rounded-lg">
+                    <img 
+                      src="/logos/fa-editorial-logo.png" 
+                      alt="FA Editorial" 
+                      className="w-14 h-14 object-contain group-hover:scale-110 transition-transform duration-500"
+                    />
                   </div>
                   <h2 className="font-neue-machina text-4xl md:text-5xl font-normal text-deep-black mb-4 tracking-tight leading-tight group-hover:text-deep-black transition-colors duration-500">
                     Editorial
@@ -196,7 +200,7 @@ export function ChoiceCards() {
               </div>
 
               {/* Hover overlay */}
-              <div className="absolute inset-0 bg-gradient-to-t from-sage-light/10 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
+              <div className="absolute inset-0 bg-gradient-to-t from-amber-200/20 via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none"></div>
             </Tilt>
           </div>
         </div>

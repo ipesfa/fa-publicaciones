@@ -5,7 +5,7 @@ import "./globals.css"
 
 export const metadata: Metadata = {
   title: "FA Publicaciones - IPES Florentino Ameghino",
-  description: "Portal de publicaciones del Instituto Provincial de Educación Superior Florentino Ameghino",
+      description: "Portal de publicaciones del Instituto Provincial de Enseñanza Superior Florentino Ameghino",
     generator: 'v0.dev'
 }
 
