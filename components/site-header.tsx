@@ -18,7 +18,7 @@ export function SiteHeader() {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-        isScrolled ? "bg-[#8C9280]/95 backdrop-blur-sm border-b border-[#8C9280]/20" : "bg-transparent"
+        isScrolled ? "bg-[#8C9280]/95 backdrop-blur-sm" : "bg-transparent"
       }`}
     >
       <div className="max-w-7xl mx-auto px-6 py-6 flex items-center justify-between">
@@ -33,6 +33,11 @@ export function SiteHeader() {
             alt="FA Publicaciones" 
             className="h-10 w-auto group-hover:scale-105 transition-transform duration-300"
           />
+          <span className={`font-neue-machina text-xs font-medium tracking-[0.1em] uppercase ${
+            isScrolled ? "text-white/90" : "text-deep-black/80"
+          }`}>
+            PUBLICACIONES
+          </span>
         </Link>
 
         {/* Navigation */}

@@ -27,7 +27,7 @@ export function ChoiceCards() {
   }, [])
 
   return (
-    <section ref={sectionRef} className="py-32 px-6 bg-sage-primary">
+    <section ref={sectionRef} id="publicaciones" className="py-32 px-6 bg-sage-primary">
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
           {/* FA Revista Card */}

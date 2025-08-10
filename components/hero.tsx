@@ -45,7 +45,15 @@ export function Hero() {
               isVisible ? "translate-y-0 opacity-100" : "translate-y-4 opacity-0"
             }`}
           >
-            <button className="group inline-flex items-center px-8 py-4 border border-deep-black/30 rounded-full transition-all duration-300 hover:border-deep-black/60 hover:bg-deep-black/5 focus:outline-none focus:ring-1 focus:ring-deep-black/40">
+            <button 
+              onClick={() => {
+                document.getElementById('publicaciones')?.scrollIntoView({ 
+                  behavior: 'smooth',
+                  block: 'start'
+                })
+              }}
+              className="group inline-flex items-center px-8 py-4 border border-deep-black/30 rounded-full transition-all duration-300 hover:border-deep-black/60 hover:bg-deep-black/5 focus:outline-none focus:ring-1 focus:ring-deep-black/40"
+            >
               <svg
                 className="w-4 h-4 text-deep-black/60 group-hover:text-deep-black transition-all duration-300 mr-3"
                 fill="none"
