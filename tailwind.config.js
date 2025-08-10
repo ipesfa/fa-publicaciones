@@ -12,6 +12,7 @@ module.exports = {
       fontFamily: {
         sans: ["var(--font-inter)", "system-ui", "sans-serif"],
         serif: ["var(--font-playfair)", "Georgia", "serif"],
+        "neue-machina": ["var(--font-neue-machina)", "system-ui", "sans-serif"],
       },
       colors: {
         "sage-primary": "#A4B494",

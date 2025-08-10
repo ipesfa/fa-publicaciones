@@ -29,13 +29,13 @@ export function SiteHeader() {
           style={{ animationDelay: "0.2s", animationFillMode: "forwards" }}
         >
           <div className="w-10 h-10 bg-deep-black flex items-center justify-center group-hover:bg-deep-black/80 transition-colors duration-300">
-            <span className="text-white font-bold text-lg">FA</span>
+            <span className="text-white font-bold text-lg font-neue-machina">FA</span>
           </div>
           <div className="flex flex-col">
-            <span className="font-sans text-xs font-medium text-deep-black tracking-wider uppercase leading-tight">
+            <span className="font-neue-machina text-xs font-medium text-deep-black tracking-wider uppercase leading-tight">
               IPES FA
             </span>
-            <span className="font-sans text-xs font-light text-deep-black/80 tracking-wider uppercase leading-tight">
+            <span className="font-neue-machina text-xs font-light text-deep-black/80 tracking-wider uppercase leading-tight">
               PUBLICACIONES
             </span>
           </div>
@@ -50,13 +50,13 @@ export function SiteHeader() {
             <li>
               <Link
                 href="/acerca-de"
-                className="font-sans text-xs font-light text-deep-black/80 hover:text-deep-black transition-all duration-300 tracking-[0.2em] uppercase hover:underline focus:outline-none focus:underline"
+                className="font-neue-machina text-xs font-light text-deep-black/80 hover:text-deep-black transition-all duration-300 tracking-[0.2em] uppercase hover:underline focus:outline-none focus:underline"
               >
                 Acerca de
               </Link>
             </li>
             <li>
-              <span className="font-sans text-xs font-light text-deep-black/60 tracking-[0.3em] uppercase">ES</span>
+              <span className="font-neue-machina text-xs font-light text-deep-black/60 tracking-[0.3em] uppercase">ES</span>
             </li>
           </ul>
         </nav>

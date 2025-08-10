@@ -1,6 +1,6 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { inter, playfair } from "./fonts"
+import { inter, playfair, neueMachina } from "./fonts"
 import "./globals.css"
 
 export const metadata: Metadata = {
@@ -15,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="es" className={`${inter.variable} ${playfair.variable}`}>
+    <html lang="es" className={`${inter.variable} ${playfair.variable} ${neueMachina.variable}`}>
       <body className="font-sans antialiased">{children}</body>
     </html>
   )
