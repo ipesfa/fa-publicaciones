@@ -175,8 +175,10 @@ export function ChoiceCards() {
 
                 {/* Button area */}
                 <div className="flex items-center justify-between">
-                  <Link
-                    href="/fa-editorial"
+                  <a
+                    href="https://fa-editorial.vercel.app/fa-editorial"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="group/btn inline-flex items-center text-deep-black hover:text-deep-black transition-all duration-300 focus:outline-none"
                   >
                     <span className="font-neue-machina text-sm tracking-[0.15em] uppercase font-light mr-4 group-hover/btn:mr-6 transition-all duration-300">
@@ -192,7 +194,7 @@ export function ChoiceCards() {
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                       </svg>
                     </div>
-                  </Link>
+                  </a>
 
                   {/* Subtle indicator */}
                   <div className="w-2 h-2 rounded-full bg-deep-black/20 group-hover:bg-deep-black/40 transition-all duration-500"></div>

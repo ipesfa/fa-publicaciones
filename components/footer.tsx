@@ -118,7 +118,9 @@ export function Footer() {
                 Institucional
               </a>
               <a
-                href="/fa-editorial"
+                href="https://fa-editorial.vercel.app/fa-editorial"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="font-neue-machina text-sm text-deep-black/60 hover:text-deep-black transition-colors duration-300"
               >
                 FA Editorial
