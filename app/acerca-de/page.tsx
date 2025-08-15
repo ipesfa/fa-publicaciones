@@ -12,9 +12,6 @@ export default function AcercaDePage() {
             <h1 className="font-neue-machina text-5xl md:text-7xl font-normal text-deep-black tracking-tight leading-[0.9] mb-8 animate-fade-in-up">
               Acerca de
             </h1>
-            <p className="font-neue-machina text-lg text-deep-black/70 leading-relaxed font-light max-w-2xl mx-auto animate-fade-in-up" style={{ animationDelay: '0.2s' }}>
-              Instituto Provincial de Enseñanza Superior Florentino Ameghino
-            </p>
           </div>
 
           <div className="prose prose-lg max-w-none animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
