@@ -20,23 +20,19 @@ export default function AcercaDePage() {
           <div className="prose prose-lg max-w-none animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
             <div className="space-y-8 text-deep-black/80 font-light leading-relaxed">
               <p className="font-neue-machina text-lg">
-                El Instituto Provincial de Enseñanza Superior Florentino Ameghino es una institución 
-                dedicada a la formación académica y la investigación, comprometida con el desarrollo 
-                educativo y cultural de la región.
+                FA Publicaciones es el sello editorial académico del Instituto Provincial de Enseñanza Superior "Florentino Ameghino" de Tierra del Fuego, Argentina. Surge como una iniciativa orientada a visibilizar, preservar y difundir producciones originales de carácter académico, pedagógico y cultural que nacen del trabajo de docentes, investigadores y estudiantes de nivel superior.
               </p>
               
               <p className="font-neue-machina">
-                Nuestras publicaciones académicas reflejan el compromiso institucional con la 
-                producción y difusión del conocimiento, abarcando diversas áreas del saber y 
-                contribuyendo al debate académico contemporáneo.
+                Nuestro catálogo incluye artículos científicos, ensayos académicos, experiencias pedagógicas y libros, que abordan críticamente los vínculos entre educación, cultura y sociedad desde múltiples disciplinas, con especial énfasis en los contextos del sur del país y de América Latina.
               </p>
 
               <p className="font-neue-machina">
-                FA Publicaciones surge como el sello editorial que agrupa tanto la revista 
-                institucional como las publicaciones especializadas, manteniendo los más altos 
-                estándares de calidad académica y editorial. Nuestros proyectos culturales 
-                representan el compromiso institucional con la difusión del conocimiento y 
-                el desarrollo cultural de la comunidad académica.
+                Con un enfoque de acceso abierto, promovemos prácticas editoriales éticas, inclusivas y colaborativas, comprometidas con el derecho a la educación, el pensamiento crítico y la circulación libre del conocimiento.
+              </p>
+
+              <p className="font-neue-machina">
+                FA Publicaciones apuesta por una lectura rigurosa y dinámica, poniendo en diálogo saberes situados, perspectivas interdisciplinares y voces diversas que problematizan lo educativo desde enfoques contemporáneos.
               </p>
             </div>
           </div>
