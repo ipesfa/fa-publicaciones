@@ -118,7 +118,7 @@ export function Footer() {
                 Institucional
               </a>
               <a
-                href="https://fa-editorial.vercel.app/fa-editorial"
+                href="https://faeditorial.ipesfa-ushuaia.edu.ar/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-neue-machina text-sm text-deep-black/60 hover:text-deep-black transition-colors duration-300"

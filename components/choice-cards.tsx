@@ -88,7 +88,7 @@ export function ChoiceCards() {
                 {/* Button area */}
                 <div className="flex items-center justify-between">
                   <Link
-                    href="https://revista-institucional.vercel.app/"
+                    href="https://farevista.ipesfa-ushuaia.edu.ar/"
                     className="group/btn inline-flex items-center text-deep-black hover:text-deep-black transition-all duration-300 focus:outline-none"
                     target="_blank"
                     rel="noopener noreferrer"
@@ -176,7 +176,7 @@ export function ChoiceCards() {
                 {/* Button area */}
                 <div className="flex items-center justify-between">
                   <a
-                    href="https://fa-editorial.vercel.app/fa-editorial"
+                    href="https://faeditorial.ipesfa-ushuaia.edu.ar/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="group/btn inline-flex items-center text-deep-black hover:text-deep-black transition-all duration-300 focus:outline-none"
